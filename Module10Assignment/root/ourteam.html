@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+	    <title>Classes</title>
+        <meta charset="UTF-8">
+  	    <meta name="author" content="Katie Craven">
+  	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./stylesheets/Chateau.css"> 
+    </head>
+<body>
+	<header> 
+    <h1 id="myHeader">Chateau Chien</h1> 
+    </header>
+   <main>
+       <!-- wrapper  flex box stuff starts here--> 
+      
+
+       <nav class="navcontainer">
+        
+		<a href="./index.html">Home</a>
+		<a href="./classes.html">Classes</a>
+		<a href="./ourteam.html">Our Team</a>
+		<a href="./contact.html">Contact</a>
+		<a href="./ourgraduates.html">Our Graduates</a>
+	    <a href="./adoptme.html">Adopt Me</a>
+</nav>
+
+      <!-- wrapper  flex box stuff ends here--> 
+        
+  
+       <!-- first flex box stuff starts here-->
+       <div class="flex-container">
+            <div class="flex-container-sponsors-item"><a href="https://www.sweetpawsrescue.org/"> 
+                <img src="./images/sponsor.jpg" alt="classes page image" style="width:100px; height:100px;"></a></div>
+                <div class="flex-container-sponsors-item"><a href="https://www.mspca.org/"> 
+                    <img src="./images/mspca.png" alt="classes page image" style="width:100px; height:100px;"></a></div>
+                    <div class="flex-container-sponsors-item"><a href="https://www.northeastanimalshelter.org/"> 
+                        <img src="./images/northeast.png" alt="classes page image" style="width:100px; height:100px;"></a></div>
+
+   
+       </div>
+              <!-- first flex box stuff ends here-->
+       <div class="container">
+       <!--I went with a div class to separate this section out for styling-->
+
+        <h3>Employees</h3>
+<br>
+
+<p>Our Trainers are</p>
+<ol class="bold italics">
+    <li>Experienced</li>
+    <li>Helpful</li>
+    <li>Available for private lessons</li>
+</ol>
+
+<!--first flex box stuff starts here-->
+<div class="flex-container">
+    <div class="flex-container-item flex-container-item-1"><img class ="image_circle" src="./images/me.jpg" alt="trainer 1" style="width:30%">
+        <figcaption>Katie Craven Prall</figcaption></div>
+    <div class="flex-container-item flex-container-item-2"><img class ="image_circle" src="./images/sandy.jpg" alt="trainer 2" style="width:30%">
+        <figcaption>Sandy</figcaption></div>
+    <div class="flex-container-item flex-conatiner-item-3"><img class ="image_circle" src="./images/spongebob.jpg" alt="trainer 3" style="width:30%">
+        <figcaption>Sponge Bob</figcaption></div>
+    <div class="flex-container-item flex-container-item-1"><img class ="image_circle" src="./images/mrcrabs.jpg" alt="trainer 1" style="width:30%">
+            <figcaption>Mr. Crabs</figcaption></div>
+    <div class="flex-container-item flex-container-item-1"><img class ="image_circle" src="./images/squidward.jpg" alt="trainer 1" style="width:30%">
+                <figcaption>Squid Ward</figcaption></div>
+    <div class="flex-container-item flex-container-item-1"><img class ="image_circle" src="./images/patrick.png" alt="trainer 1" style="width:30%">
+                    <figcaption>Patrick</figcaption></div>
+    <div class="flex-container-item flex-container-item-1"><img class ="image_circle" src="./images/plankton.jpg" alt="trainer 1" style="width:30%">
+                        <figcaption>Plankton</figcaption></div>
+  </div>
+
+  <!--first flex box stuff ends here-->
+
+		<footer>
+		Copyright &copy; <span class="large_italics">Chateau Chien</span>
+		<br>
+		<a href="mailto:katie@craven.com">katie@craven.com</a>
+			<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+		</footer>
+    </div>
+</div>
+</div>
+</main>
+</body>
+</html>
